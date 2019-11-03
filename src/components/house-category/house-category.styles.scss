@@ -1,0 +1,36 @@
+.tabs {
+    width: 70%;
+    height: 300px;
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+
+    .type-details {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+
+            :first-child {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        @media all and (max-width: 900px) {
+            flex-direction: column;
+        }
+    }
+
+    @media all and (max-width: 900px) {
+        height: 500px;
+    }
+}

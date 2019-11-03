@@ -1,0 +1,25 @@
+.content-container {
+  width: 75%;
+  position: relative;
+  left: 25%;
+  .houseImg {
+    width: 290px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 100px auto;
+  }
+
+  .house-categories {
+    width: 100%;
+    height: 450px;
+    background-image: linear-gradient(to right, #df6664, #feb68b);
+  }
+
+  .loan-calculator {
+    width: 100%;
+    height: 450px;
+    background-image: linear-gradient(to right, rgb(211, 227, 178), rgb(93, 170, 167));
+  }
+}
